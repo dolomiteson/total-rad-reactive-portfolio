@@ -38,6 +38,7 @@ function Portfolio() {
 
   return (
     <section>
+      <h1 id="portfolio">Projects:</h1>
       <div>
         <div className="flex-row">
           {projects.map((project, i) => (

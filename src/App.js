@@ -9,8 +9,9 @@ import Footer from './components/Footer';
 function App() {
 
   const [categories] = useState([
-    { name: "portfolio", description: "Portfolio of completed projects" },
-    { name: "resume", description: "Most updated resume" }
+    { name: "about", description: "About me page"},
+    { name: "portfolio", description: "Portfolio page" },
+    { name: "resume", description: "Resume page" }
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
@@ -29,8 +30,8 @@ function App() {
       <main>
         {!contactSelected ? (
           <>
-            <Portfolio currentCategory={currentCategory}></Portfolio>
-            <About></About>
+            <About currentCategory={currentCategory}></About>
+            <Portfolio></Portfolio>
           </>
         ) : (
           <ContactForm></ContactForm>
