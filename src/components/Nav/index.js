@@ -1,17 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { capitalizeFirstLetter } from "../../utils/helpers";
 
 
-function Nav() {
+function Nav(props) {
 
-  const categories = [
-    { name: "portfolio", description: "Portfolio of completed projects" },
-    { name: "resume", description: "Most updated resume" }
-  ];
+  const {
+    categories = [],
+    setCurrentCategory,
+    currentCategory,
+  } = props;
 
-  const handleClick = () => {
-    console.log("click handled")
-  }
+  useEffect(() => {
+    document.title = capitalizeFirstLetter(currentCategory.name);
+  }, [currentCategory]);
 
   return (
     <header className="flex-row px-1">
@@ -19,26 +20,29 @@ function Nav() {
         <a href="/">Lucas Zimmerman</a>
       </h2>
       <nav>
-      <ul className="flex-row">
+        <ul className="flex-row">
           <li className="mx-2">
-            <a href="#about" onClick={() => handleClick()}>
+            <a
+              href="#about"
+            >
               About me
             </a>
           </li>
-          <li className={"mx-2"}>
-            <span onClick={() => handleClick()}>
-              Contact
-            </span>
+          <li>
+            <span>Contact</span>
           </li>
-          {
-            categories.map((category) => (
-              <li className="mx-1" key={category.name} >
-                <span onClick={() => { handleClick(); }}>
-                 {capitalizeFirstLetter(category.name)}
-                </span>
-              </li>
-            ))
-          }
+          {categories.map((category) => (
+            <li className={`mx-1 ${currentCategory.name === category.name && 'navActive'
+              }`} key={category.name}>
+              <span
+                onClick={() => {
+                  setCurrentCategory(category)
+                }}
+              >
+                {capitalizeFirstLetter(category.name)}
+              </span>
+            </li>
+          ))}
         </ul>
       </nav>
     </header>
