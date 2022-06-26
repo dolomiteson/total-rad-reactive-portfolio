@@ -1,5 +1,5 @@
 import React from 'react';
-import coverImage from "../../assets/cover/fam.png";
+import coverImage from "../../assets/cover/fam.jpg";
 
 function About() {
   return (
@@ -16,7 +16,7 @@ function About() {
           with two children.
         </p>
       </div>
-      <img src={coverImage} className="my-2" style={{ width: "50%", height: "650px"}} alt="cover" />
+      <img src={coverImage} className="my-2" style={{ width: "100%", height: "650px"}} alt="cover" />
     </section>
   );
 }
