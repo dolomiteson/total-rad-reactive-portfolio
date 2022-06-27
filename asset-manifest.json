@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/total-rad-reactive-portfolio/static/css/main.883ec018.css",
-    "main.js": "/total-rad-reactive-portfolio/static/js/main.5554a7f1.js",
+    "main.js": "/total-rad-reactive-portfolio/static/js/main.b6aee34e.js",
     "static/js/787.10326210.chunk.js": "/total-rad-reactive-portfolio/static/js/787.10326210.chunk.js",
     "static/media/deck.jpg": "/total-rad-reactive-portfolio/static/media/deck.ba58820ee4fcccdbd760.jpg",
     "static/media/4.jpg": "/total-rad-reactive-portfolio/static/media/4.746aba7099c15ea995c4.jpg",
@@ -14,11 +14,11 @@
     "static/media/5.jpg": "/total-rad-reactive-portfolio/static/media/5.3b4a36fe2c0ccea073b9.jpg",
     "index.html": "/total-rad-reactive-portfolio/index.html",
     "main.883ec018.css.map": "/total-rad-reactive-portfolio/static/css/main.883ec018.css.map",
-    "main.5554a7f1.js.map": "/total-rad-reactive-portfolio/static/js/main.5554a7f1.js.map",
+    "main.b6aee34e.js.map": "/total-rad-reactive-portfolio/static/js/main.b6aee34e.js.map",
     "787.10326210.chunk.js.map": "/total-rad-reactive-portfolio/static/js/787.10326210.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.883ec018.css",
-    "static/js/main.5554a7f1.js"
+    "static/js/main.b6aee34e.js"
   ]
 }
