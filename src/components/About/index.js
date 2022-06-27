@@ -8,7 +8,7 @@ function About() {
       <div>
         <p>
           I am a SDET involved in the tech indrustry for the last 6 years. I am aspiring to transition completely
-          into software development. I have a degree in Softgware Development along with a certificate in Node applications.
+          into software development. I have a degree in Software Development along with a certificate in Node applications.
           Please see Resume section for more details. 
         </p>
         <p>

@@ -42,12 +42,14 @@ function Portfolio() {
       <div>
         <div className="flex-row">
           {projects.map((project, i) => (
-            <img
-              src={require(`../../assets/page-pics/${i}.jpg`)}
-              alt={project.name}
-              className="img-thumbnail mx-1"
-              key={project.name}
-            />
+            <a href={project.link} target="_blank" rel="noreferrer">
+              <img
+                src={require(`../../assets/page-pics/${i}.jpg`)}
+                alt={project.name}
+                className="img-thumbnail mx-1"
+                key={project.name}
+              />
+            </a>
           ))}
         </div>
       </div>
