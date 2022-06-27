@@ -15,7 +15,7 @@ function Nav(props) {
   return (
     <header className="flex-row px-1">
       <h2>
-        <a href="/">Lucas Zimmerman</a>
+        <a href="/total-rad-reactive-portfolio">Lucas Zimmerman</a>
       </h2>
       <nav>
         <ul className="flex-row">
