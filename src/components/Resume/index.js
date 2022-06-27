@@ -33,7 +33,7 @@ function Resume() {
                     })}
                 </ul>
             </div>
-            <h1><a href='https://docdro.id/1LMZlKE' target="_blank" rel="noreferrer" download>My Resume</a></h1>
+            <h1><a href='https://docdro.id/1LMZlKE' target="_blank" rel="noopener noreferrer" download>My Resume</a></h1>
         </div>
     );
 }
