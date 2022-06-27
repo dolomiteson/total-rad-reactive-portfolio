@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/total-rad-reactive-portfolio/static/css/main.883ec018.css",
+    "main.js": "/total-rad-reactive-portfolio/static/js/main.5554a7f1.js",
+    "static/js/787.10326210.chunk.js": "/total-rad-reactive-portfolio/static/js/787.10326210.chunk.js",
+    "static/media/deck.jpg": "/total-rad-reactive-portfolio/static/media/deck.ba58820ee4fcccdbd760.jpg",
+    "static/media/4.jpg": "/total-rad-reactive-portfolio/static/media/4.746aba7099c15ea995c4.jpg",
+    "static/media/1.jpg": "/total-rad-reactive-portfolio/static/media/1.e2793d1101e6cd9a56d9.jpg",
+    "static/media/2.jpg": "/total-rad-reactive-portfolio/static/media/2.7a3cd3e5e4bd93d6cf64.jpg",
+    "static/media/fam.jpg": "/total-rad-reactive-portfolio/static/media/fam.3779426402904f774ef0.jpg",
+    "static/media/3.jpg": "/total-rad-reactive-portfolio/static/media/3.b4c626632d36c0a98b41.jpg",
+    "static/media/water.jpg": "/total-rad-reactive-portfolio/static/media/water.75e69554d752df3381f5.jpg",
+    "static/media/0.jpg": "/total-rad-reactive-portfolio/static/media/0.a325416134634388091e.jpg",
+    "static/media/5.jpg": "/total-rad-reactive-portfolio/static/media/5.3b4a36fe2c0ccea073b9.jpg",
+    "index.html": "/total-rad-reactive-portfolio/index.html",
+    "main.883ec018.css.map": "/total-rad-reactive-portfolio/static/css/main.883ec018.css.map",
+    "main.5554a7f1.js.map": "/total-rad-reactive-portfolio/static/js/main.5554a7f1.js.map",
+    "787.10326210.chunk.js.map": "/total-rad-reactive-portfolio/static/js/787.10326210.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.883ec018.css",
+    "static/js/main.5554a7f1.js"
+  ]
+}
