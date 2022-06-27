@@ -22,7 +22,7 @@ function Resume() {
         'Test Driven Development'
     ]
     return (
-        <div>
+        <section>
           <h1 id="resume">Resume:</h1>
             <div className="skillsList">
                 <ul>
@@ -34,7 +34,7 @@ function Resume() {
                 </ul>
             </div>
             <h1><a href='https://docdro.id/1LMZlKE' target="_blank" rel="noopener noreferrer" download>My Resume</a></h1>
-        </div>
+        </section>
     );
 }
 

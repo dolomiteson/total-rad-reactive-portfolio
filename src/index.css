@@ -6,7 +6,7 @@ main {
 }
 :root {
   --primary: #8c54ff;
-  --secondary: #F3A847;
+  --secondary: #28197c;
   --tertiary: #B12704;
   --light: #fafafa;
   --dark: #000000;
@@ -35,7 +35,8 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
-  background: var(--dark);
+  background-image: url("assets/css-pics/water.jpg");
+  background-size: cover;
   color: var(--light);
   font-family: 'Poiret One', cursive;
 
@@ -48,9 +49,10 @@ h4,
 h5,
 h6 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
+  font-weight: 800;
   margin: 5px 0;
   line-height: 1.25;
+  color: var(--secondary);
 }
 
 h1 {
@@ -80,6 +82,7 @@ h6 {
 p {
   font-size: 1.1rem;
   margin-top: 0;
+  color: var(--secondary);
 }
 
 a {
@@ -93,13 +96,23 @@ a:hover {
 }
 
 header {
-  background: var(--darkGreen);
-  position: fixed;
+  background-image: url("assets/css-pics/deck.jpg");
+  background-size: contain;
   width: 100%;
 }
 
 header a {
   color: var(--light);
+}
+
+footer {
+  width: 100%;
+  background-image: url("assets/css-pics/deck.jpg");
+  background-size: contain;
+}
+
+footer a {
+  margin: auto;
 }
 
 button {
@@ -133,6 +146,8 @@ span[role="img"] {
 
 form {
   width: 40%;
+  min-height: 1070px;
+  color: var(--secondary);
 }
 
 input {
@@ -234,8 +249,9 @@ textarea {
 }
 
 .card {
-  width: 25%;
+  width: 500px;
   text-align: center;
+  margin-right: 20px;
 }
 
 .img-thumbnail {
@@ -269,6 +285,10 @@ textarea {
 	font-size: 18px;
 	font-weight: 600;
 	margin-bottom: 25px;
+}
+
+.skillsList {
+  color: var(--secondary);
 }
 
 button {

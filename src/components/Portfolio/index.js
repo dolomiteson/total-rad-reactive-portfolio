@@ -42,14 +42,18 @@ function Portfolio() {
       <div>
         <div className="flex-row">
           {projects.map((project, i) => (
-            <a href={project.link} target="_blank" rel="noopener noreferrer">
-              <img
-                src={require(`../../assets/page-pics/${i}.jpg`)}
-                alt={project.name}
-                className="img-thumbnail mx-1"
-                key={project.name}
-              />
-            </a>
+            <div className="card space-between" key={project.name}>
+              <h2>{project.name}</h2>
+              <div>
+                <a href={project.link} target="_blank" rel="noopener noreferrer">
+                  <img
+                    src={require(`../../assets/page-pics/${i}.jpg`)}
+                    alt={project.name}
+                    className="img-thumbnail mx-1"
+                  />
+                </a>
+              </div>
+            </div>
           ))}
         </div>
       </div>

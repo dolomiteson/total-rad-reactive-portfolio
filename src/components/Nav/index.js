@@ -21,7 +21,8 @@ function Nav(props) {
         <ul className="flex-row">
           {categories.map((category) => (
             <li>
-              <a className={`mx-2 ${currentCategory.name === category.name && !contactSelected && 'navActive'}`}key={category.name} href={'#' + category.name} onClick={() => {
+              <a key={category.id} className={`mx-2 ${currentCategory.name === category.name && !contactSelected && 'navActive'}`} href={'#' + category.name}
+                onClick={() => {
                   setCurrentCategory(category);
                   setContactSelected(false);
                 }}
